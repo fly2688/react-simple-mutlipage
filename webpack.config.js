@@ -17,6 +17,7 @@ const webpackConfig = {
         inline: true,
         port: 8181
     },
+    stats: { children: false },
     module:{
         rules:[
             {
