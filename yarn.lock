@@ -1785,7 +1785,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@^3.0.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
+debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
@@ -2184,9 +2184,9 @@ etag@~1.8.1:
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
 eventemitter3@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
-  integrity sha512-qerSRB0p+UDEssxTtm6EDKcE7W4OaoisfIMl4CngyEhjpYglocpNg6UEqCvemdGhosAsg4sO2dXJOdyBifPGCg==
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 events@^3.0.0:
   version "3.0.0"
@@ -2445,11 +2445,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.9.0.tgz#8d5bcdc65b7108fe1508649c79c12d732dcedb4f"
-  integrity sha512-CRcPzsSIbXyVDl0QI01muNDu69S8trU4jArW9LpOt2WtC6LyUJetcIrmfHsRBx7/Jb6GHJUiuqyYxPooFfNt6A==
-  dependencies:
-    debug "^3.0.0"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -2915,9 +2913,9 @@ http-proxy-middleware@0.19.1:
     micromatch "^3.1.10"
 
 http-proxy@^1.17.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.0.tgz#dbe55f63e75a347db7f3d99974f2692a314a6a3a"
-  integrity sha512-84I2iJM/n1d4Hdgc6y2+qY5mDaz2PUVjlg9znE9byl+q0uC3DeByqBGReQu5tpLK0TAqTIXScRUV+dg7+bUPpQ==
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
+  integrity sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==
   dependencies:
     eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
@@ -3061,7 +3059,7 @@ internal-ip@^4.3.0:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
 
-interpret@1.2.0, interpret@^1.0.0:
+interpret@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
   integrity sha512-mT34yGKMNceBQUoVn7iCDKDntA7SC6gycMAWzGx1z/CMCTV7b2AAtXlo3nRyHZ1FelRkQbQjprHSYGwzLtkVbw==
@@ -4836,13 +4834,6 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
-rechoir@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/rechoir/-/rechoir-0.6.2.tgz#85204b54dba82d5742e28c96756ef43af50e3384"
-  integrity sha1-hSBLVNuoLVdC4oyWdW70OvUOM4Q=
-  dependencies:
-    resolve "^1.1.6"
-
 redent@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/redent/-/redent-1.0.0.tgz#cf916ab1fd5f1f16dfb20822dd6ec7f730c2afde"
@@ -5015,7 +5006,7 @@ resolve-url@^0.2.1:
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.1.6, resolve@^1.10.0:
+resolve@^1.10.0:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.12.0.tgz#3fc644a35c84a48554609ff26ec52b66fa577df6"
   integrity sha512-B/dOmuoAik5bKcD6s6nXDCjzUKnaDvdkRyAk6rsmsKLipWj4797iothd7jmmUhWTfinVMU+wc56rYKsit2Qy4w==
@@ -5280,15 +5271,6 @@ shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
-
-shelljs@^0.8.3:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.3.tgz#a7f3319520ebf09ee81275b2368adb286659b097"
-  integrity sha512-fc0BKlAWiLpwZljmOvAOTE/gXawtCoNrP5oaY7KIaQbbyHeQVg01pSEuEGvGh3HEdBU4baCD7wQBwADmM/7f7A==
-  dependencies:
-    glob "^7.0.0"
-    interpret "^1.0.0"
-    rechoir "^0.6.2"
 
 signal-exit@^3.0.0:
   version "3.0.2"
